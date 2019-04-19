@@ -12,7 +12,20 @@ body {
 div {
   display: block;
 }
+
+.flex {
+  display: flex;
+}
 /* HEADER */
+
+header {
+  background-image: url(images/glasses-bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 30rem;
+  padding-top: 1rem;
+}
 
 .container {
   max-width: 960px;
@@ -50,7 +63,24 @@ ul li {
 /* BANNER */
 
 
+header .flex{
+  justify-content: flex-end;
+}
 
+.main-banner {
+  display: inline-block;
+  background-color: white;
+  padding: 1.5rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 1.2rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2rem;
+
+}
 /* SUPPORTING */
 
 
