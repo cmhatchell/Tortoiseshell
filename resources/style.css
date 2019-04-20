@@ -171,7 +171,7 @@ footer img {
   }
 }
 
-/* Mid-Point */
+/* Mid-Point 720px */
 
 @media only screen and (max-width: 720px) {
   .menu ul {
@@ -186,6 +186,7 @@ footer img {
     /* Mobile */
 
 @media only screen and (max-width: 560px) {
+      /* HEADER */
   header {
     background-position: 20%
     height: 17rem;
@@ -194,9 +195,9 @@ footer img {
   header div span {
       display: none;
   }
-
+     /* BANNER */
   .main-banner {
-    margin: 9rem auto 0 auto;
+    margin: 9rem auto 0;
     padding: 0 1rem;
     width: 100%;
     text-align: center;
@@ -205,7 +206,7 @@ footer img {
   h1 {
     font-size: 1rem;
   }
-
+      /* SUPPORTING */
   .supporting {
     flex-direction: column;
     align-items: center;
@@ -218,7 +219,7 @@ footer img {
     margin: .77rem;
     font-size: .77rem;
   }
-
+      /* INFO */
   .info {
     width: auto;
   }
